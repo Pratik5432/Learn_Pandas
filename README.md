@@ -44,3 +44,25 @@
 * series_marks.std()
 * series_marks.var()
 * series_marks.describe()
+
+* series_marks.astype()
+* series_marks.between(51, 99)    # between 51 and 99
+* series_marks.drop_duplicates()
+* series_marks.duplicated()
+* series_marks.isnull()
+* series_marks.dropna()
+* series_marks.fillna()
+* series_marks.isin()
+* series_marks.apply()
+* series_marks.copy()
+
+#### Series with Python functionality
+* len(series_marks)
+* type(series_marks)
+* dir(series_marks)
+* sorted(series_marks)
+* min(series_marks)
+* max(series_marks)
+
+* list(series_marks)                # type conversion
+* dict(series_marks)
