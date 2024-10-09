@@ -55,6 +55,8 @@
 * series_marks.isin()
 * series_marks.apply()
 * series_marks.copy()
+* series_marks.unique()
+* series_marks.nunique()
 
 #### Series with Python functionality
 * len(series_marks)
@@ -84,12 +86,20 @@
 * marks.tail()
 * marks.sample()
 * marks.isnull()
-* marks.rename()
+* marks.rename(columns{'col1':'new_col'})
 * marks.value_counts()
 * marks.sort_values()          # ascending=False, inplace=True (Be careful will using inplace parameter)
 * marks.sort_index()
 * marks.duplicated()
 * marks[''].astype()
+* marks.isdigit()
+* marks.rank()                # ascending=False
+* marks.set_index('')         # Only works in datadrame, not on series
+* marks.reset_index()
+* marks.dropna()              # parameter: how='all','any'; subset=['col1', 'col2']
+* marks.fillna()
+* marks.drop_duplicates()
+* marks.apply()
 
 #### Selecting columns from a dataset in dataframe
 * Single column: marks['']
