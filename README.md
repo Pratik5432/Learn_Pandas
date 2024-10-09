@@ -66,3 +66,35 @@
 
 * list(series_marks)                # type conversion
 * dict(series_marks)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Pandas Dataframe
+
+#### Dataframe Attributes
+* marks.shape
+* marks.dtypes
+* marks.columns
+* marks.index
+* marks.values
+
+#### Dataframe Methods
+* marks.info()
+* marks.describe()
+* marks.head()
+* marks.tail()
+* marks.sample()
+* marks.isnull()
+* marks.rename()
+* marks.value_counts()
+* marks.sort_values()          # ascending=False, inplace=True (Be careful will using inplace parameter)
+* marks.sort_index()
+* marks.duplicated()
+* marks[''].astype()
+
+#### Selecting columns from a dataset in dataframe
+* Single column: marks['']
+* Multiple columns: marks[ ['', '', ''] ]
+
+#### Searching rows from a dataset in dataframe
+* iloc: searches using index positions. eg: marks.iloc[]
+* loc: searches using index labels. eg: marks.loc[]
